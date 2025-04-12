@@ -28,7 +28,6 @@
 }
 
 .nav-bar-mobile-logo-container {
-
   width: 100%;
 }
 
@@ -39,7 +38,6 @@
 }
 
 .nav-bar-large-container {
- 
   justify-content: space-between;
   width: 100%;
   max-width: 1110px;
