@@ -50,7 +50,7 @@ const ratingsList = [
   {
     ratingId: '3',
     imageUrl:
-      'https://assets.ccbp.in/frontend/react-js/rating-three-stars-img.png',
+      'https://asses.ccbp.in/frontend/react-js/rating-three-stars-img.png',
   },
   {
     ratingId: '2',
@@ -96,7 +96,7 @@ class AllProductsSection extends Component {
       searchInput,
       activeRatingId,
     } = this.state
-    const apiUrl = `https://apis.ccbp.in/products?sort_by=${activeOptionId}&category=${activeCategoryId}&title_search=${searchInput}&rating=${activeRatingId}`
+    const apiUrl = `https://apis.ccbp.in/products?sort_by=${activeOptionId},category=${activeCategoryId}&title_search=${searchInput}&rating=${activeRatingId}`
     const options = {
       headers: {
         Authorization: `Bearer ${jwtToken}`,

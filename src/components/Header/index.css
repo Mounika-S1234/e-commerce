@@ -23,13 +23,12 @@
 }
 @media screen and (max-width: 767px) {
   .nav-content {
-    flex-direction: column;
+    flex-direction: row;
   }
 }
 
 .nav-bar-mobile-logo-container {
-  display: flex;
-  justify-content: space-between;
+
   width: 100%;
 }
 
@@ -40,8 +39,7 @@
 }
 
 .nav-bar-large-container {
-  display: flex;
-  align-items: center;
+ 
   justify-content: space-between;
   width: 100%;
   max-width: 1110px;
@@ -65,9 +63,9 @@
 
 .nav-menu {
   display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  align-self: flex-end;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-self: flex-start;
   flex: 1;
   list-style-type: none;
   margin-top: 0px;
@@ -91,7 +89,7 @@
 
 .nav-menu-list-mobile {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-around;
   align-items: center;
   height: 70px;

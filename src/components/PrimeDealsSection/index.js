@@ -64,7 +64,7 @@ class PrimeDealsSection extends Component {
     const {primeDeals} = this.state
     return (
       <div>
-        <h1 className="primedeals-list-heading">Exclusive Prime Deals</h1>
+        <h1 className="primedeals-list-heading">Catogories</h1>
         <ul className="products-list">
           {primeDeals.map(product => (
             <ProductCard productData={product} key={product.id} />
